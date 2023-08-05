@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+select,
+input{
+  line-height: inherit;
+}
+
+/* Estilo geral */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d7f300;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #879600;
+  margin-bottom: 2vh;
+}
+
+a {
+  color: #00eaff;
+  font-weight: 600;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+select {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #00ff22;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Estilos CSS para a tabela */
+table {
+  width: 100%;
+  color: #fff080;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+  border:2px solid #f6ff00;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #484b00;
+  font-weight: bold;
+}
+
+td {
+  font-weight: normal;
+}
+
+tr:hover {
+  background-color: #fff08154;
+}
+/* Estilos adicionais */
+.caixa_form {
+  padding: 7vh;
+  width: 50%;
+  height: 100%;
+  background-color: #fffccc;
+  box-shadow: inset 0px 0px 10px 1px rgb(0, 0, 0);
+  border-radius: 70px;
+}
+
+.caixa_tabela {
+  padding: 10vh;
+  width: 90%;
+  height: 100%;
+  background-color: #6d7917;
+  box-shadow: inset 0 0 10px rgb(0, 0, 0);
+  text-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.voltar {
+  color: #28ff53;
+  font-weight: 600;
+}
+
+.excluir{
+  color: rgb(255, 0, 0);
+  font-weight: 600;
+}
+
+.alterar{
+  color: #00c3ff;
+  font-weight: 600;
+}
+
+spam{
+  color: #37fff5;
+  background-color: #ff1b1b;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 400;
+  text-shadow: 0px 0px 10px black;
+  font-size: smaller;
+}
